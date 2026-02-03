@@ -6,69 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        body {
-            margin: 0;
-            font-family: "Segoe UI", Arial, sans-serif;
-            background: #0b1220;
-            color: #e5e7eb;
-            line-height: 1.8;
-        }
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: radial-gradient(circle at top, #2a1020, #0b0b12);
+        color: #f9dbe7;
+        line-height: 1.8;
+    }
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 40px 20px;
+    }
 
-        h1 {
-            text-align: center;
-            color: #22c55e;
-            margin-bottom: 5px;
-        }
+    h1 {
+        text-align: center;
+        color: #ff5fa2;
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
+    }
 
-        .subtitle {
-            text-align: center;
-            color: #9ca3af;
-            margin-bottom: 30px;
-            font-size: 14px;
-        }
+    .subtitle {
+        text-align: center;
+        color: #f0a6c1;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
 
-        h2 {
-            color: #4ade80;
-            margin-top: 35px;
-        }
+    h2 {
+        color: #ff87b7;
+        margin-top: 35px;
+    }
 
-        p {
-            color: #d1d5db;
-        }
+    p {
+        color: #f6c1d7;
+    }
 
-        ul {
-            margin-top: 10px;
-            padding-left: 22px;
-        }
+    ul {
+        margin-top: 10px;
+        padding-left: 22px;
+    }
 
-        li {
-            margin-bottom: 8px;
-        }
+    li {
+        margin-bottom: 8px;
+    }
 
-        .highlight {
-            color: #22c55e;
-            font-weight: 600;
-        }
+    .highlight {
+        color: #ff5fa2;
+        font-weight: 600;
+    }
 
-        .footer {
-            text-align: center;
-            margin-top: 60px;
-            font-size: 14px;
-            color: #9ca3af;
-        }
+    a.highlight {
+        text-decoration: none;
+        border-bottom: 1px dashed #ff5fa2;
+        transition: opacity 0.2s ease;
+    }
 
-        .divider {
-            height: 1px;
-            background: #1f2933;
-            margin: 30px 0;
-        }
-    </style>
+    a.highlight:hover {
+        opacity: 0.8;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 60px;
+        font-size: 14px;
+        color: #e7a1bf;
+    }
+
+    .divider {
+        height: 1px;
+        background: linear-gradient(to right, transparent, #ff5fa2, transparent);
+        margin: 30px 0;
+    }
+</style>
+
 </head>
 
 <body>
@@ -151,10 +163,14 @@
         </p>
 
         <h2>Support & Contact</h2>
-        <p>
-            If you have questions, concerns, or data-related requests,
-            please contact us via the <span class="highlight">StellarBeats Support Server</span>.
-        </p>
+		<p>
+			If you have questions, concerns, or data-related requests,
+			please contact us via the
+			<a href="https://discord.gg/Z7Mt8DAuac" target="_blank" class="highlight">
+				StellarBeats Support Server
+			</a>
+		</p>
+
 
         <div class="footer">
             © 2026 StellarBeats. All rights reserved.
